@@ -1,0 +1,28 @@
+html,
+body {
+    text-align: right;
+    height: 100%;
+    width: 100%;
+
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+}
+
+
+#projects {
+    text-align: center;
+}
+
+
+@media (max-height: 100vh) {
+    #welcome-section {
+        text-align: center;
+        margin-bottom: 40em;
+        height: 100vh;
+        margin-top: 30em;
+
+    }
+}
